@@ -1,0 +1,41 @@
+{
+  "name": "@dotcode.moscow/trix-columns",
+  "version": "1.0.0",
+  "main": "dist/custom-trix.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [
+    "trix",
+    "table",
+    "columns"
+  ],
+  "author": {
+    "name": "dotcode moscow",
+    "email": "info@dotcode.moscow",
+    "url": "https://dotcode.moscow"
+  },
+  "license": "MIT",
+  "description": "Columns in Trix editor",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "svg-sprite-loader": "^6.0.6"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npmhttps://github.com/dotcode-moscow/trix-columns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dotcode-moscow/trix-columns/issues"
+  },
+  "homepage": "https://github.com/dotcode-moscow/trix-columns#readme"
+}

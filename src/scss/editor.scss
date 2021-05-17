@@ -1,0 +1,14 @@
+custom_trix_flex {
+  display: flex;
+}
+
+custom_trix_element {
+  padding: 5px;
+  flex: 1 1 auto;
+  border: 1px dashed rgba(164, 163, 163, 0.5);
+  border-right: none;
+}
+
+custom_trix_element:last-of-type {
+  border-right: 1px dashed rgba(164, 163, 163, 0.5);
+}
